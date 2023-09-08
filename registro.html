@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/hacker.png" type="image/x-icon">
+
+    <title>Informática ABC</title>
+</head>
+<body>
+    <header>
+        <a id="Ir arriba"></a>
+        <img src="img/hacker.png" alt="Logo">
+        <h1>Informatica ABC</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            
+        </ul>
+    </header>
+    <hr>
+    <main>
+    <section>
+        <h2>Registrate para novedades!</h2>
+        <form action="" id="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="Nombre">Nombre  :*  </label>
+                <input type="text" name="nom" id="nom" maxlength="30" required>
+                <label for="Apellido">Apellido:*</label>
+                <input type="text" name="ape" id="ape" maxlength="30" required>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" minlength="0">
+                <br><br>
+                <label for="fecnac">Fecha de nacimiento: </label>
+                <input type="date" name="fecnac" id="fecnac">
+                <label for="residencia">Lugar de Residencia:</label>
+                <select name="residencia" id="residencia">
+                    <option value="1">Capital Federal</option>
+                    <option value="2">GBA</option>
+                    <option value="3">Interior del pais</option>
+                </select>
+                <p>* <b>Campos obligatorios</b></p>
+            </fieldset>
+            <fieldset>
+                <legend>Contacto e Intereses</legend>
+                <label for="Correo"> Correo :* </label>
+            <input type="email" name="correo" id="correo" placeholder="juan@example.com" required>
+            <label for="tel">Telefono:*</label>
+            <input type="number" name="tel" id="tel" placeholder="Ingrese su numero sin 0 ni 15" required><br><br>
+            <label for="intereses">Tengo interes en:</label>
+            <input type="checkbox" name="Desktops" value="1">Desktops
+            <input type="checkbox" name="Desktops" value="2">Laptops
+            <input type="checkbox" name="Desktops" value="3">Componentes
+            <input type="checkbox" name="Desktops" value="4"><b>Todas las Opciones</b><br><br>
+            <label for="rb">Que consideras mas importante a la hora de comprar</label>
+            <input type="radio" name="rb" value="1">Precio
+            <input type="radio" name="rb" value="2">Calidad
+            <input type="radio" name="rb" value="3">Ofertas
+            <input type="radio" name="rb" value="4">Atencion al cliente <br>
+            <p><b>* Campos Obligatorios</b></p>
+            </fieldset>
+            <input type="checkbox" name="RecibirOfertas" value="">Acepto Recibir Ofertas <br><br>
+
+            <button>Enviar datos</button>
+            <button>Borrar datos</button>
+        </form>
+
+    </section>
+
+        
+    </main>
+    <hr>
+    <footer>
+        <a href="mailto:abcinfo@gmil.com"><img src="img/correo.png" alt="Escribinos" title="Escribinos"></a>
+        <a href="#" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+        <a href="#" target="_blank"><img src="img/Twitter.png" alt="Twitter"></a>
+        <a href="#" target="_blank"><img src="img/tik-tok.png" alt="Tiktok"></a>
+        <a href="#" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+        <br>
+        <a href="#">Ir arriba</a>
+    </footer>
+</body>
+</html>

@@ -1,67 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web de Informática ABC">
+    <meta name="keywords" content="informática, productos, contacto, empresa">
     <link rel="shortcut icon" href="img/hacker.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Informática ABC</title>
 </head>
-
 <body>
     <header>
         <a id="Ir arriba"></a>
         <img src="img/hacker.png" alt="Logo">
         <h1>Informatica ABC</h1>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="Nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="registro.html">Registro</a></li>
-
+            <li><a class="nav-link" href="index.html">Inicio</a></li>
+            <li><a class="nav-link" href="productos.html">Productos</a></li>
+            <li><a class="nav-link" href="contacto.html">Contacto</a></li>
+            <li><a class="nav-link" href="Nosotros.html">Sobre Nosotros</a></li>
+            <li><a class="nav-link" href="registro.html">Registro</a></li>
         </ul>
     </header>
-    <hr>
+    
     <main>
         <h2>Contactate con Nosotros</h2>
-        <form action="" method="">
-            <label for="Nombre">Nombre :* </label>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nom">Nombre*</label>
             <input type="text" name="nom" id="nom" maxlength="30" required><br>
-            <label for="Apellido">Apellido:*</label>
+            <label for="ape">Apellido*</label>
             <input type="text" name="ape" id="ape" maxlength="30" required><br>
-            <label for="Correo"> Correo :* </label>
+            <label for="correo">Correo*</label>
             <input type="email" name="correo" id="correo" placeholder="juan@example.com" required><br>
             <label for="Comentarios">Escriba su consulta:</label>
             <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"
                 placeholder="Escriba aqui su consulta"></textarea>
             <p>* <b>Campos obligatorios</b></p>
             <input type="submit" value="Enviar datos">
-            <input type="submit" value="Borrar datos">
-
-
+            <input type="reset" value="Borrar datos">
         </form>
-        <hr>
+        
         <h2>Donde estamos?</h2>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14163.007798931496!2d-58.9920738!3d-27.4458402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c6054503c51%3A0x656ca9ed77f39dc7!2sCofaral!5e0!3m2!1ses!2sar!4v1694128659552!5m2!1ses!2sar"
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
-
     </main>
-    <hr>
+    
     <footer>
         <a href="mailto:abcinfo@gmil.com"><img src="img/correo.png" alt="Escribinos" title="Escribinos"></a>
         <a href="#" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
         <a href="#" target="_blank"><img src="img/Twitter.png" alt="Twitter"></a>
         <a href="#" target="_blank"><img src="img/tik-tok.png" alt="Tiktok"></a>
         <a href="#" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
-        <br>
-        <a href="#">Ir arriba</a>
+        <br><br>
+        <a href="#Ir arriba">Ir arriba</a>
     </footer>
 </body>
-
 </html>

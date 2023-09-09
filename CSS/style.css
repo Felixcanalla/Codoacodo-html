@@ -1,0 +1,172 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul, li, form, input, textarea, iframe {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales para el cuerpo del sitio */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: -8px;
+}
+
+/* Estilos para el encabezado */
+header {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+
+
+
+header img {
+    max-width: 100px; /* Ajusta el tamaño de tu logotipo */
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la barra de navegación */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul.index{
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    
+}
+p.index{
+    padding: auto;
+    font-weight: bolder;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px 20px; /* 60px de relleno superior para dejar espacio para el encabezado */
+}
+
+h2 {
+    margin-top: 60px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Estilos para el mapa */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Volver arriba */
+a[href="#Ir arriba"] {
+    
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a[href="#Ir arriba"]:hover{
+    color: #ffc107; /* Cambia el color al pasar el ratón */
+
+}
+
+/* Estilo para los íconos de redes sociales */
+footer a img {
+    max-width: 20px;
+    height: auto;
+    margin: 0 10px;
+    transition: filter 0.3s; /* Agrega una transición suave para el cambio de color */
+}
+
+/* Cambia el color al pasar el mouse sobre los íconos y aplica un efecto de lupa */
+footer a:hover img {
+    filter: brightness(1.5); /* Aumenta la luminosidad al hacer hover */
+    transform: scale(1.5); /* Escala el ícono para dar un efecto de lupa */
+    transition: transform 0.3s, filter 0.5s; /* Agrega una transición suave */
+}
+
+
+
+

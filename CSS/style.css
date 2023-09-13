@@ -1,7 +1,18 @@
 /* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h1, h2, h3, p, ul, li, form, input, textarea, iframe {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+iframe {
     margin: 0;
     padding: 0;
+    mar
 }
 
 /* Estilos generales para el cuerpo del sitio */
@@ -21,15 +32,21 @@ header {
     padding: auto;
     position: fixed;
     width: 100%;
-    
-    
+
+
+}
+
+h3.nosotros {
+    padding: 20px;
+    margin-left: 0px;
+    text-align: left;
 }
 
 
 
-
 header img {
-    max-width: 100px; /* Ajusta el tamaño de tu logotipo */
+    max-width: 100px;
+    /* Ajusta el tamaño de tu logotipo */
     height: auto;
 }
 
@@ -45,18 +62,19 @@ ul {
     justify-content: center;
 }
 
-ul.index{
+ul.index {
     display: block;
     font-weight: bolder;
     margin-bottom: 10px;
-    
+
 }
-p.index{
+
+p.index {
     padding: auto;
     font-weight: bolder;
     margin: 10px;
     margin-bottom: 30px;
-    
+
 }
 
 .nav-link {
@@ -68,14 +86,16 @@ p.index{
 }
 
 .nav-link:hover {
-    color: #ffc107; /* Cambia el color al pasar el ratón */
+    color: #ffc107;
+    /* Cambia el color al pasar el ratón */
 }
 
 /* Estilos para el contenido principal */
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 20px 20px; /* 60px de relleno superior para dejar espacio para el encabezado */
+    padding: 60px 20px 20px;
+    /* 60px de relleno superior para dejar espacio para el encabezado */
 }
 
 h2 {
@@ -86,9 +106,19 @@ h2 {
 
 /* Estilos para el formulario de contacto */
 form {
-    max-width: 400px;
+    max-width: 70%;
     margin: 0 auto;
-    
+
+}
+
+
+fieldset {
+    border: 3px solid #0a0a0a;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: block;
+
 }
 
 label {
@@ -99,12 +129,19 @@ label {
 
 input[type="text"],
 input[type="email"],
-textarea {
-    width: 100%;
+input[type="date"],
+input[type="number"] select[residencia] textarea {
+    width: 90%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+
+}
+
+#Comentarios {
+    width: 80%;
+
 }
 
 input[type="submit"],
@@ -115,6 +152,11 @@ input[type="reset"] {
     padding: 10px 20px;
     cursor: pointer;
     margin-right: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
 }
 
 /* Estilos para el mapa */
@@ -140,15 +182,17 @@ footer a {
 
 /* Volver arriba */
 a[href="#Ir arriba"] {
-    
+
     text-align: center;
     margin-top: 30px;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
-a[href="#Ir arriba"]:hover{
-    color: #ffc107; /* Cambia el color al pasar el ratón */
+
+a[href="#Ir arriba"]:hover {
+    color: #ffc107;
+    /* Cambia el color al pasar el ratón */
 
 }
 
@@ -157,16 +201,26 @@ footer a img {
     max-width: 20px;
     height: auto;
     margin: 0 10px;
-    transition: filter 0.3s; /* Agrega una transición suave para el cambio de color */
+    transition: filter 0.3s;
+    /* Agrega una transición suave para el cambio de color */
 }
 
 /* Cambia el color al pasar el mouse sobre los íconos y aplica un efecto de lupa */
 footer a:hover img {
-    filter: brightness(1.5); /* Aumenta la luminosidad al hacer hover */
-    transform: scale(1.5); /* Escala el ícono para dar un efecto de lupa */
-    transition: transform 0.3s, filter 0.5s; /* Agrega una transición suave */
+    filter: brightness(1.5);
+    /* Aumenta la luminosidad al hacer hover */
+    transform: scale(1.5);
+    /* Escala el ícono para dar un efecto de lupa */
+    transition: transform 0.3s, filter 0.5s;
+    /* Agrega una transición suave */
 }
 
+p.listaprecios {
+    font-weight: bold;
+    padding: 20px;
+}
 
-
-
+div.listaprecios {
+    background-color: #ffc107;
+    width: 100%;
+}

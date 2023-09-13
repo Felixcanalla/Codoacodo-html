@@ -1,0 +1,191 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+iframe {
+    margin: 0;
+    padding: 0;
+    mar
+}
+
+
+
+/* Estilos para el encabezado */
+header {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    width: 100%;
+    margin-top: -8px;
+
+
+
+}
+
+h2 {
+    margin-top: 150px;
+
+}
+
+
+
+header img {
+    max-width: 100px;
+    /* Ajusta el tamaño de tu logotipo */
+    height: auto;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la barra de navegación */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul.index {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+p.index {
+    padding: auto;
+    font-weight: bolder;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107;
+    /* Cambia el color al pasar el ratón */
+}
+
+/* Estilos para la sección de productos */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 60%;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.product a:hover {
+    background-color: #ffc107;
+}
+
+/* Otros estilos */
+.listaprecios {
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Volver arriba */
+a[href="#Ir arriba"] {
+
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a[href="#Ir arriba"]:hover {
+    color: #ffc107;
+    /* Cambia el color al pasar el ratón */
+
+}
+
+/* Estilo para los íconos de redes sociales */
+footer a img {
+    max-width: 20px;
+    height: auto;
+    margin: 0 10px;
+    transition: filter 0.3s;
+    /* Agrega una transición suave para el cambio de color */
+}
+
+/* Cambia el color al pasar el mouse sobre los íconos y aplica un efecto de lupa */
+footer a:hover img {
+    filter: brightness(1.5);
+    /* Aumenta la luminosidad al hacer hover */
+    transform: scale(1.5);
+    /* Escala el ícono para dar un efecto de lupa */
+    transition: transform 0.3s, filter 0.5s;
+    /* Agrega una transición suave */
+}

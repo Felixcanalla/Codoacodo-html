@@ -13,7 +13,7 @@ iframe {
     margin: 0;
     padding: 0;
     mar
-}
+} 
 
 /* Estilos generales para el cuerpo del sitio */
 body {
@@ -92,7 +92,7 @@ p.index {
 
 /* Estilos para el contenido principal */
 main {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 60px 20px 20px;
     /* 60px de relleno superior para dejar espacio para el encabezado */
